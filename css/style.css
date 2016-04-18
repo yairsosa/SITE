@@ -1,0 +1,238 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+
+
+/*ETIQUETAS*/
+body{
+background-image: url(../img/fondo6.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*h1{
+font-family: 'Shadows Into Light', cursive;
+color: white;
+width: 1000px;
+height: 120 px;
+/*margin-left: 5px;*/
+/*font-size: 40px;
+text-align: right; 
+}*/
+
+h2{
+font-family:  Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+color: white;
+margin-left: 10px;
+font-size: 20px;
+text-align: center; 
+}
+
+h3{
+font-family: forte;
+color: #FFF;
+font-size: 17px;
+text-align: center; 
+}
+
+
+header{
+	width: 970px;
+	height: 240px;
+	background: rgba(255, 255, 255, 10,70);
+}
+
+/*nav{
+width: 1000px;
+height: 50px;
+background: white;
+border-radius: 10px;
+
+}*/
+
+ul{
+margin: auto;
+font-size: 20px;
+padding-top: 2px;
+list-style: none;
+}
+
+/*li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: black;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset; 
+
+}*/
+nav{
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to());/*Para chrome y Safari*/
+    /*Degradados*/
+    background-image: -moz-linear-gradient(top center, #FFF,  );/*Para Firefox -#CCC-*/
+    background-image: -o-linear-gradient(top, #FFF, );/*Para Opera*/
+    background-image: linear-gradient(top, #FFF, );/*El estandar por defecto #9fc54d*/
+    overflow:hidden;
+    padding:10px;
+    width:950px;
+}
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+nav ul li{
+    /*Bordes redondeados*/
+    -webkit-border-radius:4px;/*Chrome y Safari*/
+    -moz-border-radius:4px;/*Firefox*/
+    -o-border-radius:4px;/*Opera*/
+    border-radius:4px;/*Estandar por defecto*/
+    float:left;
+    font-family:Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 1px 0px #FFF;
+}
+nav ul li:hover{
+    /*Degradado de fondo*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#9fc54d));/*Chrome y Safari -#E3E3E3-*/
+    background-image: -moz-linear-gradient(top center, #FFF, #9fc54d);/*Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #9fc54d);/*Opera*/
+    background-image: linear-gradient(top, #FFF, #9fc54d);/*Estandar por defecto*/
+    /*Sombras*/
+    -webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari*/
+    -moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+    -o-box-shadow:  1px -1px 0px #999;/*Opera*/
+    box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+    border:1px solid #E3E3E3;
+}
+nav ul li a{
+    color:#435f37;
+    display:block;
+    padding:8px;
+    text-decoration:none;
+    /*Transiciones*/
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+}
+nav ul li a:hover {
+    color:#FFF;
+}
+
+section{
+	/*Degradado de fondo*/
+    
+/*background-image: linear-gradient(top, #9fc54d, #FFF);/*Estandar por defecto*/
+/*background-image: -o-linear-gradient(top,#9fc54d, #FFF);/*Opera*/
+/*background-image: -moz-linear-gradient(top center, #9fc54d, #FFF);/*Firefox*/
+/*background-image: -webkit-gradient(linear, left top, left bottom, from(#9fc54d), to(#FFF));/*Chrome y Safari -#E3E3E3-*/
+
+  
+	width: 700px;
+	/*background:  #9fc54d;*/
+	height: 480px;
+	float: left;
+	/*margin-top: 20px;*/
+	border-radius: 10px;
+	/*opacity: 0.5; */
+}
+
+
+aside{
+/*Degradado de fondo*/
+    
+/*background-image: linear-gradient(top, #000000,#FFF );/*Estandar por defecto*/
+/*background-image: -o-linear-gradient(top,#000000,#FFF );/*Opera*/
+/*background-image: -moz-linear-gradient(top center, #000000,#FFF );/*Firefox*/
+/*background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#FFF));/*Chrome y Safari -#E3E3E3-*/
+	width: 250px;
+	/*background:  #9fc54d;*/
+	height: 480px;
+	float: left;
+	/*margin-left: 20px;
+	/*margin-top: 20px;*/
+	border-radius: 10px;
+
+}
+
+footer{
+  
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    width: 950px;
+	/*background: #9fc54d;*/
+	height: 80px;
+	margin-top: 480px;
+	border-radius: 10px;
+	text-align: center;
+	
+}
+
+
+p{
+
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	color: #FFF;
+	font-size: 30px;
+	font-weight: bolder;
+	line-height: 35px;
+	padding: 25px;
+	text-align: justify;
+}
+
+#carusel{
+	padding-left: 10px;
+	width: 700px;
+	height: 480px;
+}
+
+#imagen{
+	padding-left: 150px;
+	height: 480px;
+
+
+}
+
+
+/*CLASES
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/*SEUDO CLASES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
